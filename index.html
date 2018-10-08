@@ -7,27 +7,58 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>William Hung</title>
   <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="nav">
       <ul>
-        <li><a href="career.html">Career</a></li>
-        <li><a href="personal.html">Personal</a></li>
-        <li><a href="index.html">William Hung</a></li>
-        <li><a href="news.html">News Feed</a></li>
-        <li><a href="extras.html">Extras Report</a></li>
+        <li class="nav__links"><a href="career.html">Career</a></li>
+        <li class="nav__links"><a href="personal.html">Personal</a></li>
+        <li class="nav__mainLink"><a href="index.html">William Hung</a></li>
+        <li class="nav__links"><a href="news.html">News Feed</a></li>
+        <li class="nav__links"><a href="extras.html">Extras Report</a></li>
       </ul>
     </nav>
   </header>
 
-  <footer>
+  <div class="mainPic">
+    <img src="williamHung.jpg"> <!--Main image on page-->
+  </div>
+
+  <article>
+    <header class="article__header">
+      <h1 class="article__header--title">Executive Summary</h1>
+    </header>
+
+    <section class="article__section">
+      
+      <div>
+      <h2 class="section__subtitle"></h2>  <!--Title of article in content block.-->
+      <p class="section__content"></p> <!--Content of article in content block.-->
+      </div>
+
+      <div>
+          <h2 class="section__subtitle"></h2>  <!--Title of 2nd article in content block.-->
+          <p class="section__content"></p> <!--Content of 2nd article in content block.-->
+      </div>
+
+      <div>
+          <h2 class="section__subtitle"></h2>  <!--Title of 3rd article in content block.-->
+          <p class="section__content"></p> <!--Content of 3rd article in content block.-->
+      </div>
+
+    </section>
+
+  </article>
+
+  <footer class="footer">
     <ul>
-      <li><a href="https://www.facebook.com/wh532/"><img src="facebook.png"></a></li> <!--Facebook page-->
-      <li><a href="https://twitter.com/whungspeaking"><img src="twitter.png"></a></li>  <!--Twitter page-->
-      <li><a href="https://www.instagram.com/willhung328/"><img src="instagram.png"></a></li> <!--Instagram page-->
-      <li><a href="https://www.youtube.com/channel/UCLQ9CY0bOg4uF3uQmYy-mlg"><img src="youtube.png"></a></li> <!--Youtube channel-->
+      <li class="footer__links"><a href="https://www.facebook.com/wh532/"><img src="facebook.png"></a></li> <!--Facebook page-->
+      <li class="footer__links"><a href="https://twitter.com/whungspeaking"><img src="twitter.png"></a></li>  <!--Twitter page-->
+      <li class="footer__links"><a href="https://www.instagram.com/willhung328/"><img src="instagram.png"></a></li> <!--Instagram page-->
+      <li class="footer__links"><a href="https://www.youtube.com/channel/UCLQ9CY0bOg4uF3uQmYy-mlg"><img src="youtube.png"></a></li> <!--Youtube channel-->
     </ul>
 
   </footer>
