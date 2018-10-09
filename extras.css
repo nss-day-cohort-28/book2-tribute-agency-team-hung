@@ -7,7 +7,7 @@
   border: solid 1px #143e6e;
   margin-bottom: 10px;
   border-radius: 5px;
-  
+  transition-duration: 500ms;
 }
 .section__content--img:hover {
   max-width: 64vw;

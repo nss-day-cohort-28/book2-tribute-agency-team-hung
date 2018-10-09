@@ -33,37 +33,34 @@
     </header>
 
     <section class="article__section">
-      
-      <div>
-      <h2 class="section__subtitle">Hodor</h2>  <!--Title of section in content block.-->
-      <p class="section__content">Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor.
-         Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor 
-         hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! 
-         Hodor hodor... Hodor hodor hodor...
-          Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! 
-          Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - 
-          hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; 
-          hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! 
-          Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - 
-          hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; 
-          hodor hodor; hodor hodor hodor! Hodor hodHodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! 
-          Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - 
-          hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; 
-          hodor hodor; hodor hodor hodor! Hodor hodHodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! 
-          Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - 
-          hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; 
-          hodor hodor; hodor hodor hodor! Hodor hod
-      </p> <!--Content of section in content block.-->
+
+      <div style="display: flex; justify-content: space-evenly; width: 100%">
+        <button onclick="playSheBangs()" id="sheBangs" type="button" style="margin-top: 15px; color: #143e6e; margin-bottom: 10px; width: 35%; padding: 5px; border: 1px solid black; border-radius: 5px; font-size: 18px; font-weight: bolder; background-color: #EAC4D5;">Hear "She Bangs"</button>
+        <button onclick="playSheMoves()" id="sheMoves" type="button" style="margin-top: 15px; color: #143e6e; margin-bottom: 10px; width: 35%; padding: 5px; border: 1px solid black; border-radius: 5px; font-size: 18px; font-weight: bolder; background-color: #EAC4D5;">Hear "She Moves"</button>
       </div>
 
       <div>
-          <h2 class="section__subtitle"></h2>  <!--Title of 2nd section in content block.-->
-          <p class="section__content"></p> <!--Content of 2nd section in content block.-->
+        <h2 class="section__subtitle">Known Collaborators of William Hung</h2>  <!--Title of section in content block.-->
+        <p class="section__content" style="text-align: center">Larry Platt & William Hung - "Pants On The Ground"</p> <!--Content of section in content block.-->
+        <iframe width="597" height="336" src="https://www.youtube.com/embed/F8nME7RsuVM" frameborder="0" style="margin-bottom: 25px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p class="section__content" style="text-align: center">Ricky Martin & William Hung - "She Bangs"</p> <!--Content of section in content block.-->
+        <video width="597" height="336" controls><source src="https://scontent-atl3-1.cdninstagram.com/vp/60c30a5f002859a0496e14f1708dceae/5BBE6158/t50.2886-16/33676355_1973951329585215_3559926391099097088_n.mp4?rel=0" type="video/mp4"></video> 
       </div>
 
       <div>
-          <h2 class="section__subtitle"></h2>  <!--Title of 3rd section in content block.-->
-          <p class="section__content"></p> <!--Content of 3rd section in content block.-->
+        <h2 class="section__subtitle" style="margin-top: 40px;">A Portrait Of An Icon</h2>  <!--Title of 2nd section in content block.-->
+        <p class="section__content"><img src="http://district52speakersbureau.com/wp-content/uploads/Willian-Hung-0021ret-240x300.jpg" style="margin-top: 15px; width: 100%; border-radius: 10px"></p> <!--Content of 2nd section in content block.-->
+        <p class="section__content">William James Hung, aka Hung Hing Cheong</p>
+      </div>
+
+      <div>
+        <h2 class="section__subtitle">Known Aliases</h2>  <!--Title of 3rd section in content block.-->
+        <p class="section__content" style="text-align: center">Hung Hing Cheong</p> <!--Content of 3rd section in content block.-->
+      </div>
+
+      <div>
+        <h2 class="section__subtitle">Country of Residence</h2>  <!--Title of 4th section in content block.-->
+        <p class="section__content" style="text-align: center">William was born in Sha Tin, Hong Kong, and moved to Camden, New Jersey in 1993. He later moved to Los Angeles, California and still resides there today.</p> <!--Content of 4th section in content block.-->
       </div>
 
     </section>
@@ -79,6 +76,15 @@
     </ul>
 
   </footer>
+
+  <audio id="bangsAudio">
+    <source src="shortSheBangs.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="movesAudio">
+      <source src="shortSheMoves.mp3" type="audio/mpeg">
+    </audio>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
