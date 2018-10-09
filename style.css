@@ -15,6 +15,7 @@ body {
   top: 0px;
   padding: 8px;
   z-index: 2;
+  font-weight: bold;
   border-bottom: 1px solid black;
   
 }
@@ -83,6 +84,7 @@ article {
   color: #143e6e;
   text-align: center;
   padding: 10px;
+  font-size: 30px;
 }
 
 /* section component */

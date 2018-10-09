@@ -1,34 +1,42 @@
-.section__content--news{
-    width:500px;
-    height: 325px;
-    border:3px solid #143e6e;
-    border-radius: 20%;
-    padding: 0;
-  
-  }
-  
-  .section__content--sheriff{
+.section__content--sheriff{
     width: 275px;
     height: 275px;
     display:flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 18px;
   justify-content: center;
   border:3px solid #143e6e;
   border-radius: 20%;
   padding: 0;
-}
-  
-  .section__content--happy {  
-    display: block;
-    width: 275px;
-    height: 275px;
-    margin: 0 auto;
-    margin-top: 50px;
-    border:3px solid #143e6e;
-    border-radius: 20%;
-    padding: 0;
-  }
+} 
 
- 
+.section__form {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+input[type="radio"] {
+  margin-left: 3px;
+}
+.radio {
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__content--drunk{
+  width: 275px;
+  height: 255px;
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 18px;
+justify-content: center;
+border:3px solid #143e6e;
+border-radius: 20%;
+padding: 0;
+} 
