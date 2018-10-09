@@ -1,0 +1,22 @@
+/* ADDITIONAL STYLES FOR PERSONAL PAGE */
+
+/* ul for family info */
+.section__content--list {
+  list-style: none;
+  text-align: center;
+}
+
+/* li under family ul */
+.personal__li {
+  display: flex;
+  justify-content: center;
+}
+
+/* img in li */
+.personal--img {
+  max-width: 400px;
+  border: 3px solid #143e6e;
+  border-radius: 20%;
+  margin: 10px;
+}
+
