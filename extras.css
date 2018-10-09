@@ -24,3 +24,8 @@ p.section__content {
 .section__content--list a{
   text-decoration: underline;
 }
+
+iframe.section__content {
+  display: block;
+  margin: 0 auto;
+}
