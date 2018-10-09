@@ -1,6 +1,8 @@
 .section__content--news{
-    width:600px;
-    height: 375px;
+    width:500px;
+    height: 325px;
+    border:3px solid #143e6e;
+    border-radius: 20%;
   
   }
   
@@ -9,13 +11,19 @@
     height: 275px;
     display:flex;
     flex-wrap: wrap;
-  justify-content: center;}
+  justify-content: center;
+  border:3px solid #143e6e;
+  border-radius: 20%;
+}
   
   .section__content--happy {  
     display: block;
     width: 275px;
     height: 275px;
     margin: 0 auto;
+    border:3px solid #143e6e;
+    border-radius: 20%;
+    padding: 0;
   }
 
   #grow {
