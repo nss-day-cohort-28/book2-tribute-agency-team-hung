@@ -15,6 +15,7 @@ body {
   top: 0px;
   padding: 8px;
   z-index: 2;
+  border-bottom: 1px solid black;
   
 }
 .nav ul {
@@ -72,7 +73,7 @@ article {
   background-color: #EAC4D5;
   display: block;
   margin: 0 auto;
-  width: 70vw;
+  width: 62vw;
   margin-bottom: 20px;
   border: solid 2px  #143e6e;
   border-radius: 10px;
@@ -110,7 +111,7 @@ article {
 .section__content {
   color:#143e6e;
   padding: 15px;
-  
+
 }
 
 /* footer component */
@@ -125,6 +126,7 @@ article {
   width: 100vw; 
   list-style: none;
   margin-top: 0px;
+  border-top: 1px solid black;
 }
 .footer__links img{
   max-width: 25px;

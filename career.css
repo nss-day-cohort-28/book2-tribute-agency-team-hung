@@ -1,0 +1,15 @@
+.ul__center {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40vw;
+}
+
+.section__content--img {
+  max-width: 60vw;
+}
+
+.div--flex {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
