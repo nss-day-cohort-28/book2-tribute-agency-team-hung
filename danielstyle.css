@@ -1,0 +1,24 @@
+.section__content--news{
+    width:600px;
+    height: 375px;
+  
+  }
+  
+  .section__content--sheriff{
+    width: 275px;
+    height: 275px;
+    display:flex;
+    flex-wrap: wrap;
+  justify-content: center;}
+  
+  .section__content--happy {  
+    display: block;
+    width: 275px;
+    height: 275px;
+    margin: 0 auto;
+  }
+
+  #grow {
+    font-size: x-large;
+    font:bold;
+  }
