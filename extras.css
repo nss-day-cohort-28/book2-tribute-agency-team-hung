@@ -1,0 +1,26 @@
+.section__subtitle {
+  margin-top: 10px;
+}
+
+.section__content--img {
+  max-width: 60vw;
+  border: solid 1px #143e6e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
+}
+.section__content--img:hover {
+  max-width: 64vw;
+  transition-duration: 700ms;
+  
+}
+p.section__content {
+  padding-top: 2px;
+}
+.section__content--list {
+  list-style: none;
+  text-align: center;
+}
+.section__content--list a{
+  text-decoration: underline;
+}
