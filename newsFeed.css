@@ -10,3 +10,23 @@
   border-radius: 20%;
   padding: 0;
 } 
+
+.section__form {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+input[type="radio"] {
+  margin-left: 3px;
+}
+.radio {
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
