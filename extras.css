@@ -10,7 +10,8 @@
   
 }
 .section__content--img:hover {
-  max-width: 62vw;
+  max-width: 64vw;
+  transition-duration: 700ms;
   
 }
 p.section__content {
