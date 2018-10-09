@@ -21,3 +21,7 @@
   margin: 10px;
 }
 
+/* overriding left alignment from global styles*/
+.section__content {
+  text-align: center;
+}
